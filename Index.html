@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
@@ -14,77 +13,63 @@
 
 <body>
 
-<!-- NAVIGATION -->
-
+<!-- NAV -->
 <header>
   <div class="nav-wrap">
     <nav class="navbar">
-
-
-  <a class="logo">
-    <img src="assets/images/logo.svg" alt="">
-  </a>
-
-  <div class="burger">☰</div>
-
-</nav>
-
-
+      <a class="logo">
+        <img src="assets/images/logo.svg" alt="">
+      </a>
+      <div class="burger">☰</div>
+    </nav>
   </div>
 </header>
 
 <!-- HERO -->
-
 <section class="hero">
   <div class="container">
 
+    <div class="search-bar">
+      <input type="text" placeholder="Search...">
+    </div>
 
-<div class="search-bar">
-  <input type="text" placeholder="Search...">
-</div>
+    <h1>
+      <span class="light">ASANDA</span><span class="bold">KUMBACA</span>
+    </h1>
 
-<h1>
-  <span class="light">ASANDA</span><span class="bold">KUMBACA</span>
-</h1>
+    <p>
+      Inspired by <span>changes</span>, <span>pressure</span>, new 
+      <span>challenge</span> and always trying to find ways to 
+      <span>work smarter</span>
+    </p>
 
-<p>
-  Inspired by <span>changes</span>, <span>pressure</span>, new 
-  <span>challenge</span> and always trying to find ways to 
-  <span>work smarter</span>
-</p>
-
-<a class="btn-primary">VIEW MY PORTFOLIO</a>
-
+    <a class="btn-primary" id="heroBtn">VIEW MY PORTFOLIO</a>
 
   </div>
 </section>
 
 <!-- SERVICES -->
-
 <section id="services" class="services">
   <div class="container">
 
+    <h2 class="services-title">SERVICES</h2>
 
-<h2 class="services-title">SERVICES</h2>
+    <div class="services-grid">
+      <div class="service-card"></div>
+      <div class="service-card"></div>
+      <div class="service-card"></div>
+      <div class="service-card"></div>
+      <div class="service-card"></div>
+      <div class="service-card"></div>
+    </div>
 
-<div class="services-grid">
-  <div class="service-card"></div>
-  <div class="service-card"></div>
-  <div class="service-card"></div>
-  <div class="service-card"></div>
-  <div class="service-card"></div>
-  <div class="service-card"></div>
-</div>
-
-<a class="btn-primary">WHATSAPP ME</a>
-
+    <a class="btn-primary" id="servicesBtn">WHATSAPP ME</a>
 
   </div>
 </section>
 
 <!-- PORTFOLIO -->
-
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
 
   <h2 class="portfolio-title">
     <span class="tag">&lt;</span>
@@ -93,123 +78,100 @@
   </h2>
 
   <p class="portfolio-subtitle">
-    This is a body of work/skills I have learn through my career as a designer, not limited 
-    to what you see currently. With each brief i continue to learn add a new set of skills, 
-    not just design but also understanding human interactions to certain messages and visuals.
+    This is a body of work/skills I have learn through my career...
   </p>
 
   <div class="portfolio-grid">
-
-
-<div class="portfolio-item">
-  <img src="./Assets/images/Social-1.png" alt="">
-</div>
-
-<div class="portfolio-item">
-  <img src="./Assets/images/Social-2.jpg" alt="">
-</div>
-
-<div class="portfolio-item">
-  <img src="./Assets/images/Social-3.png" alt="">
-</div>
-
-
+    <div class="portfolio-item"><img src="./Assets/images/Social-1.png"></div>
+    <div class="portfolio-item"><img src="./Assets/images/Social-2.jpg"></div>
+    <div class="portfolio-item"><img src="./Assets/images/Social-3.png"></div>
   </div>
 
-<a href="#" class="btn-primary">VIEW MORE WORK</a>
+  <a href="#" class="btn-primary" id="portfolioBtn">VIEW MORE WORK</a>
 
 </section>
 
 <!-- BRIEF -->
-
 <section id="brief" class="brief">
-
   <div class="container">
 
+    <h2>BRIEF</h2>
 
-<h2>BRIEF</h2>
+    <form class="brief-form" id="briefForm">
 
-<div class="brief-header">
+      <!-- ADDED EMAIL (nothing removed) -->
+      <label>Email Address</label>
+      <input type="email" id="userEmail" placeholder="Enter your email">
 
-  <h3>Let’s play around with the idea you have in mind</h3>
+      <label>Project Name</label>
+      <input type="text" placeholder="Type here">
 
-  <p>
-    and make it come to life but for now we will not be using visual,
-    but structuring the idea/concept in words so that it makes perfect
-    sense to both you and the team.
-  </p>
+      <label>One Line Brief</label>
+      <input type="text" placeholder="Type here">
 
-</div>
+      <label>The Brief in Full</label>
+      <textarea placeholder="Type here"></textarea>
 
-<form class="brief-form">
+      <label>Creative Direction</label>
+      <input type="text" placeholder="Type here">
 
-  <label>Project Name</label>
-  <input type="text" placeholder="Type here">
+      <label>Design Guidelines</label>
+      <input type="text" placeholder="Type here">
 
-  <label>One Line Brief</label>
-  <input type="text" placeholder="Type here">
+      <label>References</label>
+      <input type="text" placeholder="Type here">
 
-  <label>The Brief in Full</label>
-  <textarea placeholder="Type here"></textarea>
+      <label>Target Market</label>
+      <input type="text" placeholder="Type here">
 
-  <label>Creative Direction</label>
-  <input type="text" placeholder="Type here">
+      <label>Creative Deliverables</label>
+      <input type="text" placeholder="Type here">
 
-  <label>Design Guidelines</label>
-  <input type="text" placeholder="Type here">
+      <label>Budget</label>
+      <input type="text" placeholder="Type here">
 
-  <label>References</label>
-  <input type="text" placeholder="Type here">
+      <label>Material Deadline</label>
+      <input type="text" placeholder="Type here">
 
-  <label>Target Market</label>
-  <input type="text" placeholder="Type here">
+      <label>Live Date</label>
+      <input type="text" placeholder="Type here">
 
-  <label>Creative Deliverables</label>
-  <input type="text" placeholder="Type here">
+      <label>Campaign End Date</label>
+      <input type="text" placeholder="Type here">
 
-  <label>Budget</label>
-  <input type="text" placeholder="Type here">
+      <button type="submit" class="btn-secondary">Save Brief</button>
+      <button type="button" id="cancelBrief" class="btn-secondary">Cancel</button>
 
-  <label>Material Deadline</label>
-  <input type="text" placeholder="Type here">
-
-  <label>Live Date</label>
-  <input type="text" placeholder="Type here">
-
-  <label>Campaign End Date</label>
-  <input type="text" placeholder="Type here">
-
-  <button type="submit" class="btn-secondary">Submit Brief</button>
-
-</form>
-
+    </form>
 
   </div>
+</section>
 
+<!-- CREATIVE KITS -->
+<section class="creative-kits">
+  <div class="container">
+
+    <h2 class="kits-title">
+      CREATIVE KITS
+    </h2>
+
+    <p class="kits-subtitle">
+      FREE SOCIAL MEDIA TEMPLATES
+    </p>
+<a href="https://www.canva.com/templates/EAEvfdv6Qrg/" target="_blank" class="kits-preview">
+  <img src="Assets/images/Thumbnail.png" alt="Creative Kit">
+</a>
+
+    <a href="#" class="btn-download" id="kitsBtn">DOWNLOAD</a>
+
+  </div>
 </section>
 
 <!-- FOOTER -->
-
 <footer>
   <p>© 2026 Asanda Kumbaca</p>
 </footer>
 
-<p>
-    <a href="https://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="https://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!" />
-    </a>
-</p>
-            
-
-<p>
-    <a href="https://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
-            alt="Valid CSS!" />
-    </a>
-</p>
-
+<script src="script.js"></script>
 </body>
 </html>
