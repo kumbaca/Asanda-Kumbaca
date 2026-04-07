@@ -26,3 +26,13 @@ The challenge with this assessment is that I also had to adjust/update my HTML f
 
 I decided to use external javascript because of control, it's easier to see where things went wrong for an example when I added the last section I had so many challenges and had to make many tests and trials using Google tools, since my javascript was external it was a bit easier to troubleshoot because all my codes are sorted accordingly, I can easily see if the problem is with HTML, CSS or Javascript.
 I wanted to practice and add the email form and other functions, but the deadline is in few hours. 
+
+Assessment 5
+
+On this assessment I wanted to carry on with the Brief section and add a contact form, I mananged to do the coding and the files structure, even though it was a bit challengin. The most challenging part was to link my email address(PHP) for sending emails, I manage to do the settup on google account step by step. Updated the passwords and username(email address), for testing if everything is working I first struggled to install XAMPP app on my machine.
+
+Finally i managed to get a simple PHP sever on Mac Apps, while trying or testing I noticed something. Instead of pop-up field form for email I am still getting the allert version, I updated all my codes to troubleshoot where the problem is coming from, because it seems like the new updates are not kicking in. Not sure wherether it is the platform I used for testing or an error on my code.
+
+I also ran Dev Tools and only noticed 1 error on under console and it is the Flavicon, the JS seems to be fine unless I overlooked the other errors. I oalso added a script at the bottom of the HTLM for the pop-up/form but still not appearing.
+
+This is 1 challenge I could not win... Please share on how solve such problems for the future.
